@@ -1,0 +1,2777 @@
+
+body {
+    margin: 0;
+}
+
+.site-container {
+    max-width: 1920px;
+    /* background-color: lightgoldenrodyellow; */
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+/* ----------------HEADER-------------------- */
+
+
+
+
+header {
+    width: 100%;
+    height: 11.95vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+nav {
+    width: 990px;
+    height: 55px;
+    margin-right: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    font-family: 'Rosario', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFCFC;
+    padding-top: 5.5px;
+}
+
+nav li:hover {
+    cursor: pointer;
+    color: lightgray;
+}
+
+
+
+
+/* ------------------CONTAINER1---------------- */
+
+
+
+
+.container1 {
+    width: 100%;
+    height: 88.05vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container1-column-left {
+    width: 370px;
+    height: 583px;
+    margin-left: 45px;
+    animation-name: boxtraffic1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes boxtraffic1 {
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(0%);  
+    }
+}
+
+.container1-column-center {
+    width: 963px;
+    height: 816px;
+}
+
+.column-center-row1 {
+    width: 963px;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-center-img1 {
+    width: 465px;
+    height: 410px;
+    animation-name: boxtraffic3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes boxtraffic3 {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0%);  
+    }
+}
+
+.column-center-img2 {
+    width: 467px;
+    height: 410px;
+    animation-name: boxtraffic4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes boxtraffic4 {
+    from {
+        transform: translateX(200%);
+    }
+    to {
+        transform: translateX(0%);  
+    }
+}
+
+.column-center-row2 {
+    width: 963px;
+    height: 364px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+
+.column-center-img3 {
+    width: 465px;
+    height: 364px;
+    animation-name: boxtraffic3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes boxtraffic3 {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0%);  
+    }
+}
+
+.column-center-img4 {
+    width: 475px;
+    height: 364px;
+    animation-name: boxtraffic4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes boxtraffic4 {
+    from {
+        transform: translateX(200%);
+    }
+    to {
+        transform: translateX(0%);  
+    }
+}
+
+.container1-column-right {
+    width: 367px;
+    height: 583px;
+    margin-right: 45px;
+    animation-name: boxtraffic4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes boxtraffic4 {
+    from {
+        transform: translateX(150%);
+    }
+    to {
+        transform: translateX(0%);  
+    }
+}
+
+
+
+
+
+/* -----------CONTAINER2------------------- */
+
+
+
+
+
+.container2 {
+    height: 88.05vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.container2-services {
+    width: 975px;
+    height: 88.05vh;
+    background-color: white
+}
+
+.container2-services-row1 {
+    width: 975px;
+    height: 44.025vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+/* .hair-styling {
+    animation-name: boxmoving-hair-styling;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes boxmoving-hair-styling {
+    0% {
+      left: 0;
+      top: 0;  
+    }
+
+    25% {
+        left: 487px;
+        top: 0;
+    }
+
+    50% {
+        left: 487px;
+        top: 478px;
+    }
+
+    75% {
+        left: 0;
+        top: 478px; 
+    }
+
+    100% {
+        left: 0;
+        top: 0; 
+    }
+} */
+
+/* .beard-trimming {
+    animation-name: boxmoving-beard-trimming;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes  boxmoving-beard-trimming {
+    0% {
+      left: 0;
+      top: 0;  
+    }
+
+    25% {
+        left: 0;
+        top: 478px;
+    }
+
+    50% {
+        left: -487px;
+        top: 478px;
+    }
+
+    75% {
+        left: -487px;
+        top: 0; 
+    }
+
+    100% {
+        left: 0px;
+        top: 0px; 
+    }
+} */
+
+.container2-services-row2 {
+    width: 975px;
+    height: 44.025vh;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+/* .smooth-shave {
+    animation-name: boxmoving-smooth-shave;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  boxmoving-smooth-shave {
+    0% {
+      left: 0;
+      top: 0;  
+    }
+
+    25% {
+        left: 0;
+        top: -478px;
+    }
+
+    50% {
+        left: 487px;
+        top: -478px;
+    }
+
+    75% {
+        left: 487px;
+        top: 0; 
+    }
+
+    100% {
+        left: 0px;
+        top: 0px; 
+    }
+} */
+
+/* .hair-straightening {
+    animation-name: boxmoving-hair-straightening;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  boxmoving-hair-straightening {
+    0% {
+      left: 0;
+      top: 0;  
+    }
+
+    25% {
+        left: -487px;
+        top: 0px;
+    }
+
+    50% {
+        left: -487px;
+        top: -478px;
+    }
+
+    75% {
+        left: 0px;
+        top: -487px; 
+    }
+
+    100% {
+        left: 0px;
+        top: 0px; 
+    }
+} */
+
+
+.container2-barber {
+    width: 945px;
+    height: 88.05vh;
+}
+
+.container2-barber img {
+    width: 945px;
+    height: 88.05vh;
+}
+
+
+
+
+/* -----------------CONTAINER3---------------- */
+
+
+
+
+.container3 {
+    height: 88.05vh;
+    position: relative;
+}
+
+.container3-title {
+    width: 1787px;
+    height: 187px;
+    margin: 0px auto 50px;
+}
+
+.container3-title h2 {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.experts {
+    width: 100%;
+    height: 677px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expert1 {
+    width: 404px;
+    height: 677px;
+    position: relative;
+}
+
+.expert1-name {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.expert1:hover .expert1-name {
+    height: 155px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.experts:hover > div {
+    filter: brightness(60%);
+    transition: 0.5s;
+}
+
+.experts:hover > div:hover {
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.expert1-name p {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFAFA;
+}
+
+.expert2 {
+    width: 392px;
+    height: 677px;
+    position: relative;
+}
+
+.expert2-name {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.expert2-name p {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFAFA;
+}
+
+.expert2:hover .expert2-name {
+    height: 155px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.expert3 {
+    width: 400px;
+    height: 677px;
+    position: relative;
+}
+
+.expert3-name {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.expert3-name p {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFAFA;
+}
+
+.expert3:hover .expert3-name {
+    height: 155px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.expert4 {
+    width: 396px;
+    height: 677px;
+    position: relative;
+}
+
+.expert4-name {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    background-color: rgba(163, 83, 10, 0.7);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.expert4-name p {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFAFA;
+}
+
+.expert4:hover .expert4-name {
+    height: 155px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+
+
+/* ------------------CONTAINER4--------------- */
+
+
+
+
+.container4 {
+    height: 88.05vh;
+    padding-top: 50px;
+    position: relative;
+}
+
+.container4-content {
+    width: 1600px;
+    height: 590px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.container4-title {
+    width: 798px;
+    height: 173px;
+    margin-bottom: 17px;
+}
+
+.container4-title h2 {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.registration {
+    width: 936px;
+    height: 400px;
+    background-color: #E5E5E5;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.registration-name {
+    width: 380px;
+    height: 80px;
+    background-color: #FFFFFF;
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 25px;
+    border: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.registration-email {
+    width: 452px;
+    height: 80px;
+    background-color: #FFFFFF;
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-left: 45px;
+    margin-bottom: 45px;
+}
+
+input {
+    outline: none;
+}
+
+.registration-message {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 863px;
+    height: 209px;
+    margin-left: 25px;
+    padding-left: 15px;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.map {
+    width: 626px;
+    height: 570px;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 626px;
+    height: 570px;
+}
+
+footer {
+    width: 1600px;
+    height: 187px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 565px;
+    height: 187px;
+    text-align: center;
+}
+
+.email-contact {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.email-ohone-headquarters {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.contact-link {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0;
+    text-decoration: none;
+}
+
+.phone-contact {
+    margin: 0;
+}
+
+.headquarters {
+    margin: 0;
+}
+
+.city {
+    margin: 0;
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+
+
+
+/* -------------OPENING-HOURS--------------- */
+
+
+
+
+
+.opening-hours {
+    width: 485px;
+    height: 187px;
+    text-align: center;
+}
+
+.opening-hours h3 {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.opening-hours p {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+/* --------------CONTACT-WITH-US-ON------------ */
+
+
+
+.contact-with-us-on {
+    width: 390px;
+    height: 187px;
+    text-align: center;
+}
+
+.contact-with-us-on h3 {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.social-networks {
+    width: 175px;
+    height: 111px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+.instagram span {
+    margin-left: 20px;
+}
+
+.facebook span {
+    margin-left: 15px;
+}
+
+.facebook img {
+    margin-left: -4px;
+}
+
+.twitter span {
+    margin-left: 20px;
+}
+
+span {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+
+#gallery, 
+#service,
+#team {
+    top: -11.95vh;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+/* ------------МЕДИА ЗАПРОСЫ-------------- */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1919px) {
+    .site-container {
+        max-width: 1620px;
+    }
+
+
+    /* --------CONTAINER1------- */
+
+
+
+    .container1-column-left {
+        width: 20%;   
+        margin-left: 1%;
+        height: auto;
+        animation-duration: 1s;
+    }
+
+    .container1-column-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container1-column-center {
+        width: 56%;
+    }
+
+    .column-center-row1 {
+        width: 100%;
+    }
+    
+    .column-center-img1 {
+        width: 49%;
+    }
+
+    .column-center-img1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .column-center-img2 {
+        width: 49%;
+    }
+
+    .column-center-img2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .column-center-row2 {
+        width: 100%;
+    }
+
+    .column-center-img3 {
+        width: 49%;
+    }
+
+    .column-center-img3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .column-center-img4 {
+        width: 49%;
+    }
+
+    .column-center-img4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container1-column-right {
+        width: 20%;
+        margin-right: 1%;
+        height: auto;
+        animation-duration: 1s;
+    }
+
+    .container1-column-right img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /*---------CONTAINER2---------- */
+
+
+    .container2-services {
+        width: 51%;
+    }
+
+    .container2-services-row1 {
+        width: 100%;
+    }
+
+    .hair-styling {
+       width: 37%;
+    }
+
+    .hair-styling img {
+        width: 100%;
+    }
+
+    figcaption {
+        font-size: 40px; 
+    }
+
+    /* @keyframes boxmoving-hair-styling {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 410px;
+            top: 0;
+        }
+    
+        50% {
+            left: 410px;
+            top: 478px;
+        }
+    
+        75% {
+            left: 0;
+            top: 478px; 
+        }
+    
+        100% {
+            left: 0;
+            top: 0; 
+        }
+    } */
+
+    .beard-trimming {
+        width: 37%;
+    }
+
+    /* @keyframes  boxmoving-beard-trimming {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: 478px;
+        }
+    
+        50% {
+            left: -410px;
+            top: 478px;
+        }
+    
+        75% {
+            left: -410px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .beard-trimming img {
+        width: 100%;
+    }
+
+    .container2-services-row2 {
+        width: 100%;
+    }
+
+    .smooth-shave {
+        width: 37%;
+    }
+
+    .smooth-shave img {
+        width: 100%;
+    }
+
+    /* @keyframes  boxmoving-smooth-shave {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: -478px;
+        }
+    
+        50% {
+            left: 410px;
+            top: -478px;
+        }
+    
+        75% {
+            left: 410px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .hair-straightening {
+        width: 37%;
+    }
+
+    .hair-straightening img {
+        width: 100%;
+    }
+
+    /* @keyframes  boxmoving-hair-straightening {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: -410px;
+            top: 0px;
+        }
+    
+        50% {
+            left: -410px;
+            top: -478px;
+        }
+    
+        75% {
+            left: 0px;
+            top: -487px; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .container2-barber {
+        width: 49%
+    }
+
+    .container2-barber img {
+        width: 100%;
+    }
+
+     /*---------CONTAINER3---------- */
+
+
+     .container3-title h2 {
+        font-size: 90px;
+    }
+
+    .experts {
+        width: 100%;
+        height: 620px;
+    }
+
+    .expert1 {
+        width: 22%;
+        height: 100%;
+    }
+
+    .expert1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .expert2 {
+        width: 22%;
+        height: 100%;
+    }
+
+    .expert2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .expert3 {
+        width: 22%;
+        height: 100%;
+    }
+
+    .expert3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .expert4 {
+        width: 22%;
+        height: 100%;
+    }
+
+    .expert4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+/*---------CONTAINER4---------- */
+
+
+
+    .container4-content {
+        width: 90%;
+    }
+
+    .connection-with-us {
+        width: 59%;
+    }
+
+    .registration {
+        width: 100%;
+    }
+
+    .map {
+        width: 39%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .registration-name {
+        width: 40%;
+        margin-left: 3%;
+    }
+
+    .registration-email {
+        width: 48%;
+        margin-left: 5%;
+    }
+
+    .registration-message {
+        width: 92%;
+    }
+
+}
+
+
+
+
+
+/* --------------1620px----------------- */
+
+    
+
+
+
+@media screen and (max-width: 1619px) {
+
+    .site-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        margin-left: 15px;
+    }
+
+    nav li {
+        font-size: 30px;
+    }
+
+
+
+/* ---------------CONTAINER1-------------- */
+
+
+
+    .container1-column-left {
+        margin-left: 1.5%;
+    }
+
+    .container1-column-center {
+        width: 54%;
+        height: auto;
+    }
+
+    .column-center-row1 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .column-center-img1 {
+        width: 49%;
+        height: 100%;
+    }
+
+    .column-center-img2 {
+        width: 49%;
+        height: 100%;
+    }
+
+    .column-center-row2 {
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .column-center-img3 {
+        width: 49%;
+        height: 100%;
+    }
+
+    .column-center-img4 {
+        width: 49%;
+        height: 100%;
+    }
+
+    .container1-column-right {
+        margin-right: 1.5%;
+    }
+
+
+
+ /* ----------------CONTAINER2---------- */
+
+
+
+    .hair-styling {
+        width: 37%;
+    }
+
+    figcaption {
+        font-size: 25px; 
+    }
+
+    /* @keyframes boxmoving-hair-styling {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 250px;
+            top: 0;
+        }
+    
+        50% {
+            left: 250px;
+            top: 280px;
+        }
+    
+        75% {
+            left: 0;
+            top: 280px; 
+        }
+    
+        100% {
+            left: 0;
+            top: 0; 
+        }
+    } */
+
+    .beard-trimming {
+        width: 37%;
+    }
+
+    /* @keyframes  boxmoving-beard-trimming {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: 280px;
+        }
+    
+        50% {
+            left: -250px;
+            top: 280px;
+        }
+    
+        75% {
+            left: -250px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .smooth-shave {
+        width: 37%;
+    }
+
+    /* @keyframes  boxmoving-smooth-shave {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: -280px;
+        }
+    
+        50% {
+            left: 250px;
+            top: -280px;
+        }
+    
+        75% {
+            left: 250px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .hair-straightening {
+        width: 37%;
+    }
+
+    /* @keyframes  boxmoving-hair-straightening {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: -250px;
+            top: 0px;
+        }
+    
+        50% {
+            left: -250px;
+            top: -280px;
+        }
+    
+        75% {
+            left: 0px;
+            top: -280px; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+   
+
+/* ------------CONTAINER3----------------- */
+
+
+    .container3-title {
+        width: 93%;
+        height: auto;
+        margin: 0px auto 25px;
+    }
+
+    .container3-title h2 {
+        font-size: 60px;
+        padding-top: 20px;
+    }
+
+    .experts {
+        height: auto;
+    }
+
+    .expert1 {
+        width: 22%;
+        height: auto;
+    }
+
+    .expert1-name p {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .expert1-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expert1:hover .expert1-name {
+        height: 23%;
+    }
+
+    .expert2 {
+        width: 22%;
+        height: auto;
+    }
+
+    .expert2-name p {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .expert2-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expert2:hover .expert2-name {
+        height: 23%;
+    }
+
+    .expert3 {
+        width: 22%;
+        height: auto;
+    }
+
+    .expert3-name p {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .expert3-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expert3:hover .expert3-name {
+        height: 23%;
+    }
+
+    .expert4 {
+        width: 22%;
+        height: auto;
+    }
+
+    .expert4-name p {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .expert4-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expert4:hover .expert4-name {
+        height: 23%;
+    }
+
+
+/* -------------CONTAINER4----------- */
+
+
+
+    .container4 {
+        padding-top: 50px;    
+    }
+
+
+    .container4-content {
+        width: 90%;
+        height: 60%;
+        margin-bottom: 2%;
+        padding-top: 20px;
+    }
+
+    .connection-with-us {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .container4-title {
+        width: 100%;
+        height: 20%;
+    }
+
+    .container4-title h2 {
+        font-size: 34px;
+        line-height: 38px; 
+    }
+
+    .registration {
+        padding-top: 4%;
+        height: 76%;
+        position: relative;
+    }
+
+    .registration-name {
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .registration-email {
+        height: 50px;
+        margin-bottom: 5%;
+        font-size: 30px;
+    }
+
+    .registration-message {
+        width: 90%;
+        height: 58%;
+        margin-left: 0;
+        font-size: 30px;
+        position: absolute;
+        top: 32%;
+        left: 4%;
+    }
+
+    .map {
+        height: 100%;
+        width: 39%;
+        margin-top: 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+
+/* --------------FOOTER------------ */
+
+
+
+    footer {
+        width: 90%;
+        height: 35%;
+    }
+
+    .email-ohone-headquarters {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .contact-link {
+        font-size: 22px;
+        line-height: 28px; 
+    }
+
+    .city {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .opening-hours h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+
+    .opening-hours p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .contact-with-us-on h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    span {
+        font-size: 22px;
+    }
+
+}
+
+
+
+
+/* --------------------1400px-------------------- */
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .container1 {
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .container2 {
+        height: fit-content;
+    }
+
+    .container2-barber {
+        display: none;
+    }
+
+    .container2-services {
+        width: 100%;
+        display: flex;
+        height: fit-content;
+    }
+
+    .container2-services-row1 {
+        width: 50%;
+    }
+
+    .hair-styling {
+        width: 37%;
+    }
+
+    .beard-trimming {
+        width: 37%;
+    }
+
+    .container2-services-row2 {
+        width: 50%;
+    }
+
+    .smooth-shave {
+        width: 37%;
+    }
+
+    .hair-straightening {
+        width: 37%;
+    }
+
+    .container3 {
+        height: fit-content;
+    }
+
+}
+
+
+
+
+/* ---------------992px------------------ */
+
+
+
+
+@media screen and (max-width: 992px) {
+
+
+    .site-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+/* ----------HEADER------------- */
+
+
+    nav {
+        margin-left: 10px;
+    }
+
+    nav li {
+        font-size: 20px;
+    }
+
+
+
+
+/* --------CONTAINER1--------- */
+
+
+    .container1 {
+        height: auto;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .container1-column-left {
+        order: 1;
+        width: 45%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container1-column-center {
+        width: 93%;
+        height: auto;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .column-center-img1 {
+        width: 48%;
+    }
+
+    .column-center-img2 {
+        width: 48%;
+    }
+
+    .column-center-row2 {
+        margin-top: 20px;
+    }
+
+    .column-center-img3 {
+        width: 48%;
+    }
+
+    .column-center-img4 {
+        width: 48%;
+    }
+
+    .container1-column-right {
+        width: 45%;
+        height: auto;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+   
+    
+    /* -------CONTAINER2---------- */
+
+
+    .container2 {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .container2-services {
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .container2-barber {
+        display: none;
+    }
+
+    .container2-barber img {
+        display: none;
+    }
+
+    .container2-services-row1 {
+        justify-content: space-around;
+        width: 100%;
+        height: 350px;
+    }
+
+    .container2-services-row2 {
+        justify-content: space-around;
+        width: 100%;
+        height: 350px;
+    }
+
+    .hair-styling {
+        width: 40%;
+    }
+
+    /* @keyframes boxmoving-hair-styling {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 380px;
+            top: 0;
+        }
+    
+        50% {
+            left: 380px;
+            top: 350px;
+        }
+    
+        75% {
+            left: 0;
+            top: 350px; 
+        }
+    
+        100% {
+            left: 0;
+            top: 0; 
+        }
+    } */
+
+    .beard-trimming {
+        width: 40%;
+    }
+
+    /* @keyframes  boxmoving-beard-trimming {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: 350px;
+        }
+    
+        50% {
+            left: -380px;
+            top: 350px;
+        }
+    
+        75% {
+            left: -380px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .smooth-shave {
+        width: 40%;
+    }
+
+    /* @keyframes  boxmoving-smooth-shave {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: -350px;
+        }
+    
+        50% {
+            left: 380px;
+            top: -350px;
+        }
+    
+        75% {
+            left: 380px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .hair-straightening {
+        width: 40%;
+    }
+
+    /* @keyframes  boxmoving-hair-straightening {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: -380px;
+            top: 0px;
+        }
+    
+        50% {
+            left: -380px;
+            top: -350px;
+        }
+    
+        75% {
+            left: 0px;
+            top: -350px; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    figcaption {
+        font-size: 20px;
+    }
+
+
+
+    /* --------------CONTAINER3-------- */
+
+
+
+    .container3 {
+        height: auto;
+    }
+
+    .container3-title {
+        width: 93%;
+    }
+
+    .container3-title h2 {
+        font-size: 50px;
+        padding-top: 20px;
+    }
+
+    .experts {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .expert1 {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .expert2 {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .expert3 {
+        width: 45%;
+        height: auto;
+    }
+
+    .expert4 {
+        width: 45%;
+        height: auto;
+    }
+
+
+    /* --------CONTAINER4-------- */
+
+
+
+    .container4 {
+        height: auto;
+    }
+
+    .container4-content {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .connection-with-us {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container4-title {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 25px;
+    }
+
+    .container4-title h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .registration {
+        padding-top: 4%;
+        position: relative;
+        height: 400px;
+    }
+
+    .registration-name {
+        height: 16%;
+        font-size: 30px;
+        position: absolute;
+        top: 25px;
+        width: 40%;
+        margin-left: 4%;
+    }
+
+    .registration-email {
+        height: 16%;
+        margin-bottom: 5%;
+        font-size: 30px;
+        position: absolute;
+        top: 25px;
+        right: 4%;
+        width: 48%;
+        margin-left: 5%;
+    }
+
+    .registration-message {
+        width: 90%;
+        font-size: 30px;
+        position: absolute;
+        bottom: 25px;
+        left: 4%;
+        height: 62%;
+    }
+
+    .map {
+        width: 100%;
+        margin-top: 25px;
+        height: 570px;
+    }
+
+    footer {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        width: 565px;
+        height: auto;
+        text-align: center;
+    }
+
+    .email-ohone-headquarters {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .contact-link {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .email-ohone-headquarters {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .contact-link {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .email-ohone-headquarters {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .city {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .opening-hours {
+        margin-bottom: 10px;
+        height: 130px;
+    }
+
+    .opening-hours h3 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
+
+    .opening-hours p {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .opening-hours p {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .opening-day {
+        color: red;
+    }
+
+    .time {
+        font-size: 30px;
+    }
+
+    .contact-with-us-on {
+        height: 160px;
+    }
+
+    .contact-with-us-on h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    span {
+        font-size: 26px;
+    }
+
+}
+
+
+
+
+/* -------------------768px--------------------- */
+
+
+
+
+@media screen and (max-width: 767px) {
+        
+    .site-container {   
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+
+/* --------------HEADER-------------- */
+
+
+
+    nav {
+        margin-left: 7px;
+        margin-right: 7px;
+    } 
+
+    nav li {
+        font-size: 16px;
+    }
+
+
+/* --------------CONTAINER1------------*/
+
+
+    .container1-column-left {
+        order: 1;
+        width: 90%;
+    }
+
+    .container1-column-center {
+        order: 3;
+    }
+
+    .column-center-row1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column-center-img1 {
+        width: 100%;
+        margin-bottom: 20px;
+        order: 4;
+    }
+
+    .column-center-img2 {
+        width: 100%;
+        order: 5;
+    }
+
+    .column-center-row2 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column-center-img3 {
+        width: 100%;
+        margin-bottom: 20px;
+        order: 6;
+    }
+
+    .column-center-img4 {
+        width: 100%;
+        order: 7;
+    }
+
+    .container1-column-right {
+        width: 90%;
+        margin-bottom: 20px;
+        order: 2;
+        margin-top: 0;
+    }
+
+
+/* ------------CONTAINER2--------- */
+
+
+    .container2-barber {
+        display: none;
+    }
+
+    .container2-services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    figcaption {
+        font-size: 26px; 
+    }
+
+    .hair-styling {
+        width: 34%;
+    }
+
+    /* @keyframes boxmoving-hair-styling {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 280px;
+            top: 0;
+        }
+    
+        50% {
+            left: 280px;
+            top: 350px;
+        }
+    
+        75% {
+            left: 0;
+            top: 350px; 
+        }
+    
+        100% {
+            left: 0;
+            top: 0; 
+        }
+    } */
+
+    .beard-trimming {
+        width: 34%;
+    }
+
+    /* @keyframes  boxmoving-beard-trimming {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: 350px;
+        }
+    
+        50% {
+            left: -280px;
+            top: 350px;
+        }
+    
+        75% {
+            left: -280px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .smooth-shave {
+        width: 34%;
+    }
+
+    /* @keyframes  boxmoving-smooth-shave {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: -350px;
+        }
+    
+        50% {
+            left: 280px;
+            top: -350px;
+        }
+    
+        75% {
+            left: 280px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .hair-straightening {
+        width: 34%;
+    }
+
+    /* @keyframes  boxmoving-hair-straightening {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: -280px;
+            top: 0px;
+        }
+    
+        50% {
+            left: -280px;
+            top: -350px;
+        }
+    
+        75% {
+            left: 0px;
+            top: -350px; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+
+/* ------------CONTAINER3------------- */
+
+
+    .container3-title h2 {
+        line-height: 70px;
+    }
+
+    .expert1 {
+        width: 90%;
+    }
+
+    .expert1-name p {
+        font-size: 60px;
+    }
+
+    .expert2 {
+        width: 90%;
+    }
+
+    .expert2-name p {
+        font-size: 60px;
+    }
+
+    .expert3 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .expert3-name p {
+        font-size: 60px;
+    }
+
+    .expert4 {
+        width: 90%;
+    }
+
+    .expert4-name p {
+        font-size: 60px;
+    }
+
+}
+
+
+
+/* -----------------576px------------------- */
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    
+    .site-container {
+        background-color: white;
+    }
+
+    nav {
+        display: inline-block;
+        height: auto;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav li {
+        font-size: 14px;
+        color: white;
+        line-height: 10px;
+        padding-top: 4px;
+    }
+
+    .appointment {
+        text-align: start;
+        margin-left: 15%;
+    }
+
+    .gallery {
+        text-align: start;
+        margin-left: 15%;
+    }
+
+    .services {
+        text-align: start;
+        margin-left: 15%;
+    }
+
+    .team {
+        text-align: start;
+        margin-left: 15%;
+    }
+
+    .reviews {
+        text-align: start;
+        margin-left: 15%;
+    }
+
+    .contact {
+        text-align: start;
+        margin-left: 15%;
+    }
+
+    .opening-hours p {
+        line-height: 32px;
+    }
+
+    .container2-services {
+        height: 550px;
+    }
+
+    .container2-services-row1 {
+        height: 275px;
+    }
+
+    .container2-services-row2 {
+        height: 275px;
+    }
+
+    figcaption {
+        font-size: 18px; 
+    }
+
+    .hair-styling {
+        width: 38%;
+        padding-top: 10px;
+    }
+
+    /* @keyframes boxmoving-hair-styling {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 180px;
+            top: 0;
+        }
+    
+        50% {
+            left: 180px;
+            top: 270px;
+        }
+    
+        75% {
+            left: 0;
+            top: 270px; 
+        }
+    
+        100% {
+            left: 0;
+            top: 0; 
+        }
+    } */
+
+    .beard-trimming {
+        width: 38%;
+        padding-top: 10px;
+    }
+
+    /* @keyframes  boxmoving-beard-trimming {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: 270px;
+        }
+    
+        50% {
+            left: -180px;
+            top: 270px;
+        }
+    
+        75% {
+            left: -180px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .smooth-shave {
+        width: 38%;
+        padding-top: 10px;
+    }
+
+    /* @keyframes  boxmoving-smooth-shave {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: 0;
+            top: -270px;
+        }
+    
+        50% {
+            left: 180px;
+            top: -270px;
+        }
+    
+        75% {
+            left: 180px;
+            top: 0; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+    .hair-straightening {
+        width: 38%;
+        padding-top: 10px;
+    }
+
+    /* @keyframes  boxmoving-hair-straightening {
+        0% {
+          left: 0;
+          top: 0;  
+        }
+    
+        25% {
+            left: -180px;
+            top: 0px;
+        }
+    
+        50% {
+            left: -180px;
+            top: -270px;
+        }
+    
+        75% {
+            left: 0px;
+            top: -270px; 
+        }
+    
+        100% {
+            left: 0px;
+            top: 0px; 
+        }
+    } */
+
+
+
+    /* -------------CONTAINER4----------- */
+
+
+    .container4-title {
+        font-size: 44px;
+    }
+
+    .registration-message {
+        padding-left: 4%;
+        width: 87%;
+        left: 4%;
+        font-size: 26px;
+    }
+
+    .registration-name {
+        font-size: 26px;
+    }
+
+    .registration-email {
+        font-size: 26px;
+    }
+
+    .email-ohone-headquarters {
+        font-size: 20px;
+    }
+
+    .contacts {
+        width: 100%;
+    }
+
+    .contact-link {
+        font-size: 19px;
+    }
+
+    .email-ohone-headquarters {
+        font-size: 20px;
+    }
+
+    .city {
+        font-size: 20px;
+    }
+
+    .opening-hours {
+        width: 100%;
+    }
+
+    .opening-day {
+        color: red;
+        font-size: 21px;
+    }
+
+    .time {
+        font-size: 22px;
+    }
+
+    .opening-hours h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .opening-hours p {
+        font-size: 18px;
+    }
+
+    .contact-with-us-on {
+        width: 100%;
+    }
+
+    .contact-with-us-on h3 {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 22px;
+    }
+
+    .instagram span {
+        margin-left: 10px;
+    }
+
+    .facebook span {
+        margin-left: 10px;
+    }
+
+    .twitter span {
+        margin-left: 10px;
+    }
+
+    .social-networks {
+        text-align: center;
+    }
+
+    .twitter img {
+        margin-left: -20px;
+    }
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+section {
+    max-width: 1140px;
+    height: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.expert-photo {
+    width: 35%;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.expert-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-expert {
+    width: 50%;
+    height: 677px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.expert-name {
+    width: auto;
+    margin: 10px auto;
+}
+
+.expert-name p {
+    font-size: 5.5rem;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.barber {
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.barber-specialization {
+    margin-bottom: 160px;
+}
+
+.barber-specialization p {
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.barber-specialization ul {
+    margin-left: 20px;
+}
+
+.barber-specialization li {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.reservation {
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    bottom: 230px;
+    left: 6%;
+    font-size: 2rem;
+    background-color: floralwhite;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.site-logo {
+    width: 253px;
+    height: 129px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.site-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ----------max-width 992px--------------- */
+
+
+
+@media screen and (max-width: 992px) {
+
+    section {
+        max-width: 960px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    section {
+        max-width: 720px;
+        border: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    :root {
+        font-size: 10px;
+    }
+
+    section {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .expert-photo {
+        width: 90%;
+        margin: 50px auto 0;
+        
+    }
+
+    .about-expert {
+        width: 80%;
+        margin: 50px auto 0;
+    }
+
+    .expert-name p {
+        font-size: 6.5rem;
+    }
+
+    .barber {
+        font-size: 4rem;
+    }
+
+    .barber-specialization p {
+        font-size: 4rem;
+    }
+
+    .barber-specialization li {
+        font-size: 26px;
+    }
+
+    .reservation {
+        bottom: 27%;
+    }
+
+    .barber-specialization {
+        margin-bottom: 47%;
+    }
+
+    .site-logo {
+        margin-bottom: 50px;
+    }
+
+
+
+
+    
+}
